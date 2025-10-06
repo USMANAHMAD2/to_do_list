@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="mainbox">
+      <h1 class="main-heading">To-Do List</h1>
+      <h3 class="second-heading">Things I need to do to achieve my goals</h3>
+
+      <input
+        type="text"
+        id="input-box"
+        placeholder="Add new task and Press enter"
+      />
+      <button class="btn" onclick="addtask()">Add</button>
+
+      <div class="buttonsmenu">
+        <div class="leftbtns">
+          <button class="btns1">All</button>
+          <button class="btns2">Active</button>
+          <button class="btns3">Completed</button>
+        </div>
+        <div class="rightbtns">
+          <button class="btns4">Tasks</button>
+          <button class="btns4">Clear Completed</button>
+        </div>
+      </div>
+
+      <ul id="Tasks"></ul>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
